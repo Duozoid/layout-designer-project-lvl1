@@ -1,0 +1,52 @@
+:root {
+    --blue: #1085c5;
+    --white: #fff;
+    --semi-white: #d7ccc0;
+    --light: #f5f4f0;
+    --main: #fe8a02;
+    --main-dark: #42413c;
+    --dark: #2a2626;
+    --semi-dark: #908d8b;
+    --braun: #b09a81;
+
+   --main-font: "Open Sans", sans-serif;
+   --h-font: "Neucha", sans-serif;
+  }
+
+  header {
+background-image: url(src/images/background.png);
+background-repeat: no-repeat;
+background-size: cover;
+column-count: 2;
+font: 16px 1.6em;
+color: #2A2626;
+
+  }
+
+  .types {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+      display: table;    
+      margin: 130px 165px 130px 165px;
+  }
+
+  .square {
+    width: 350px;
+    height: 350px;
+    padding: 30px;
+    box-sizing: border-box;
+    background: #F5F4F0;
+    float:left;
+  }
+h1 {
+    font: 72px;
+}
+
+h2 {
+    font:  60px;
+}
+
+h3 {
+    font: 4px;
+}
