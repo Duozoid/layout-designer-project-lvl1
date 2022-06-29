@@ -224,6 +224,7 @@ h2 {
 
 .subscription {
   align-items: center;
+
   height: 190px;
   padding: 0 55px;
 
@@ -243,6 +244,7 @@ h2 {
 
 .submit {
   position: relative;
+
   width: 70px;
   height: 50px;
 }
@@ -253,10 +255,12 @@ h2 {
   right: 0;
   bottom: 0;
   left: 0;
+
   background-color: var(--main);
   background-image: url("../images/send.svg");
   background-repeat: no-repeat;
   background-position: center;
+
   content: "";
 }
 
@@ -266,6 +270,7 @@ h2 {
 
 .section-title {
   margin-bottom: 30px;
+
   color: var(--dark);
   font-weight: normal;
   font-size: 60px;
@@ -275,6 +280,7 @@ h2 {
 
 .section-title-light {
   margin-bottom: 30px;
+
   color: var(--white);
   font-weight: normal;
   font-size: 60px;
@@ -308,20 +314,24 @@ background-color: var(--brown);
 
 padding: 5px;
 
-color: white;
-
 margin-bottom: 25px;
+
+color: white;
 
 text-transform: uppercase;
 }
 
 .how-description-light {
-  background-color: var(--white);
+
   color: var(--brown);
+  background-color: var(--white);
+
   padding: 5px;
-  text-transform: uppercase;
+
   margin-bottom: 25px;
-  }
+
+  text-transform: uppercase;
+}
 
 .type-title {
   margin-bottom: 16px;
