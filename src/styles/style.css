@@ -188,7 +188,7 @@ h2 {
 
   color: var(--white);
   font-size: 42px;
-  }
+}
 
 .background-light {
   background-color: var(--light);
@@ -222,7 +222,7 @@ h2 {
   font-family: Neucha, cursive;
   line-height: 1.2em;
 }
- 
+
 .types:hover .card-title {
   color: var(--white);
 }
@@ -380,4 +380,5 @@ h2 {
 
 .blue-text {
   color: var(--blue);
-};
+}
+\n
