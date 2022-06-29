@@ -21,10 +21,11 @@ h1,
 h2,
 h3,
 h4 {
-    margin: 0;
-    padding: 0;
-    border: 0;
-} 
+  margin: 0;
+  padding: 0;
+
+  border: 0;
+}
 
 a {
     color: inherit;
@@ -37,9 +38,10 @@ body {
     font-family: "Open Sans", sans-serif;
     line-height: 1.6em;
 }
-  
+
 h2 {
     margin-bottom: 30px;
+
     color: var(--main);
     font-weight: normal;
     font-size: 60px;
@@ -66,11 +68,13 @@ h2 {
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.1;
+
     content: "";
 }
 
 .container {
     position: relative;
+
     width: 1110px;
     margin: 0 auto;
     padding-top: 100px;
@@ -117,7 +121,7 @@ h2 {
     font-weight: bold;
     text-transform: uppercase;
     background-color: var(--main);
-}  
+}
 
 .video {
   text-align: center;
@@ -160,6 +164,7 @@ h2 {
 .flex-wrap {
     flex-wrap: wrap;
     row-gap: 20px;
+
     column-gap: 30px;
 }
 
@@ -221,6 +226,7 @@ h2 {
   align-items: center;
   height: 190px;
   padding: 0 55px;
+
   column-gap: 20px;
 }
 
@@ -299,10 +305,14 @@ height: 525px;
 
 .how-description {
 background-color: var(--brown);
-color: white;
+
 padding: 5px;
-text-transform: uppercase;
+
+color: white;
+
 margin-bottom: 25px;
+
+text-transform: uppercase;
 }
 
 .how-description-light {
@@ -315,6 +325,7 @@ margin-bottom: 25px;
 
 .type-title {
   margin-bottom: 16px;
+
   color: var(--main-dark);
   font-weight: normal;
   font-size: 34px;
@@ -324,6 +335,7 @@ margin-bottom: 25px;
 
 .type-title-light {
   margin-bottom: 16px;
+
   color: var(--white);
   font-weight: normal;
   font-size: 34px;
@@ -342,6 +354,7 @@ margin-bottom: 25px;
 
 .contacts p {
   margin-top: 16px;
+
   font-size: 14px;
   text-align: center;
 }
