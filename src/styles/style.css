@@ -82,20 +82,21 @@ h2 {
 }
 
 .title-head {
-    font-weight: normal;
-    font-size: 72px;
-    font-family: Neucha, cursive;
-    line-height: 1.2em;
+  font-weight: normal;
+  font-size: 72px;
+  font-family: Neucha, cursive;
+  line-height: 1.2em;
 }
 
 .orange {
   color: var(--main);
 }
-  
+
 .img-one {
   position: absolute;
   top: 55px;
   left: 296px;
+
   height: 525px;
 }
 
@@ -114,18 +115,22 @@ h2 {
 
 .details {
   position: relative;
+
   display: inline-block;
   margin-top: 15px;
   padding: 12px 24px;
+
   color: var(--white);
   font-weight: bold;
   text-transform: uppercase;
+
   background-color: var(--main);
 }
 
 .video {
-  text-align: center;
+
   position: relative;
+  text-align: center;
 }
 
 .mb-30 {
@@ -133,8 +138,9 @@ h2 {
 }
 
 .videoplayer {
-  text-align: center;
+
   height: 800px;
+  text-align: center;
 }
 
 .shadow {
@@ -179,6 +185,7 @@ h2 {
 
 .navigation-title {
   margin-bottom: 0;
+
   color: var(--white);
   font-size: 42px;
   }
@@ -303,8 +310,8 @@ h2 {
 }
 
 .type-description-left {
-position: relative;
-height: 525px;
+  position: relative;
+  height: 525px;
 }
 
 .ikea-title {
@@ -312,15 +319,15 @@ height: 525px;
 }
 
 .how-description {
-background-color: var(--brown);
+  background-color: var(--brown);
 
-padding: 5px;
+  padding: 5px;
 
-margin-bottom: 25px;
+  margin-bottom: 25px;
 
-color: white;
+  color: white;
 
-text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .how-description-light {
@@ -373,4 +380,4 @@ text-transform: uppercase;
 
 .blue-text {
   color: var(--blue);
-}
+};
